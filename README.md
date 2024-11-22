@@ -49,3 +49,5 @@ The main functionality is implemented in main.py:
 1. Camera not accessible: Ensure no other program is using the webcam and that the drivers are installed correctly.
 2. cv2.imshow error: If you encounter an error related to GUI functionality, reinstall OpenCV with the following command:
    ```pip install opencv-python ```
+
+## License
