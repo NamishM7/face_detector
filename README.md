@@ -37,3 +37,15 @@ Before running the project, ensure you have the following installed:
    python main.py
 2. The program will open your webcam and display the video feed with detected faces outlined by rectangles.
 3. Press the q key to quit the program.
+
+## Code Overview
+
+The main functionality is implemented in main.py:
+1. Haar Cascade Classifier: The pre-trained ```haarcascade_frontalface_default.xml``` is used to detect faces.
+2. Frame Processing: Each frame from the webcam is converted to grayscale for efficient face detection.
+3. Real-Time Detection: The detectMultiScale() function detects faces, and rectangles are drawn around them
+
+## Troubleshooting
+1. Camera not accessible: Ensure no other program is using the webcam and that the drivers are installed correctly.
+2. cv2.imshow error: If you encounter an error related to GUI functionality, reinstall OpenCV with the following command:
+   ```pip install opencv-python ```
