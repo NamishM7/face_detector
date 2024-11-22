@@ -21,6 +21,10 @@ Before running the project, ensure you have the following installed:
    ```bash
    git clone https://github.com/your-username/face-detection-opencv.git
    cd face-detection-opencv
-Install the required dependencies
+2. Install the required dependencies
 ```
 pip install opencv-python
+```
+If you encounter issues with GUI functionality, install the full version of OpenCV:
+```
+pip install opencv-python-headless
