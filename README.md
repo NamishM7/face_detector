@@ -52,3 +52,12 @@ The main functionality is implemented in main.py:
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/NamishM7/face_detector/tree/main#) file for details.
+
+## Contributions
+Contributions are welcome! Feel free to open an issue or submit a pull request.
+
+## Acknowledgements
+- [OpenCV Documentation](https://pypi.org/project/opencv-python/)
+- Haar Cascade Classifier for face detection.
+
+  
