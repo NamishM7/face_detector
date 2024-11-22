@@ -22,9 +22,18 @@ Before running the project, ensure you have the following installed:
    git clone https://github.com/your-username/face-detection-opencv.git
    cd face-detection-opencv
 2. Install the required dependencies
-```
-pip install opencv-python
-```
-If you encounter issues with GUI functionality, install the full version of OpenCV:
-```
-pip install opencv-python-headless
+   ```
+   pip install opencv-python
+   ```
+   If you encounter issues with GUI functionality, install the full version of OpenCV:
+   ```
+   pip install opencv-python-headless
+3. Verify that your camera is working and accessible.
+
+## Usage
+
+1. Run the script:
+   ```
+   python main.py
+2. The program will open your webcam and display the video feed with detected faces outlined by rectangles.
+3. Press the q key to quit the program.
