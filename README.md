@@ -51,4 +51,4 @@ The main functionality is implemented in main.py:
    ```pip install opencv-python ```
 
 ## License
-This project is licensed under the MIT License. See the (LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/NamishM7/face_detector/tree/main#) file for details.
